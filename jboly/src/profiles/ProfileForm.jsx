@@ -2,10 +2,10 @@ import React, { useState, useContext } from "react";
 import Alert from "../common/Alert";
 import JoblyApi from "../api/api";
 import UserContext from "../auth/UserContext";
-import "../styles/ProfileForm.css";
+// import "../styles/ProfileForm.css";
 
 // eslint-disable-next-line
-import useTimedMessage from "../hooks/useTimedMessage";
+// import useTimedMessage from "../hooks/useTimedMessage";
 
 /** Profile editing form.
  *

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Alert from "../common/Alert";
-import "../styles/SignupForm.css";
+// import "../styles/SignupForm.css";
 import { useNavigate } from "react-router-dom";
 
 /** Signup form.
@@ -120,7 +120,8 @@ function SignupForm({ signup }) {
 							<div className="d-grid">
 								<button
 									className="btn btn-primary"
-									onClick={handleSubmit}>
+									// onClick={handleSubmit}
+								>
 									Submit
 								</button>
 							</div>

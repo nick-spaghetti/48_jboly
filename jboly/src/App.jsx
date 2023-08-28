@@ -6,6 +6,7 @@ import LoadingSpinner from "./common/LoadingSpinner";
 import JoblyApi from "./api/api";
 import UserContext from "./auth/UserContext";
 import decode from "jwt-decode";
+// import "./App.css";
 
 // Key name for storing token in localStorage for "remember me" re-login
 export const TOKEN_STORAGE_ID = "jobly-token";
@@ -44,6 +45,7 @@ function App() {
 		"token=",
 		token
 	);
+	console.log(token);
 
 	// Load user info from API. Until a user is logged in and they have a token,
 	// this should not run. It only needs to re-run when a user logs out, so

@@ -27,7 +27,7 @@ app.use("/companies", companiesRoutes);
 app.use("/users", usersRoutes);
 app.use("/jobs", jobsRoutes);
 
-app.get("/msg", (req, res) => {
+app.get("/", (req, res) => {
 	res.json({ msg: "hello from server" });
 });
 

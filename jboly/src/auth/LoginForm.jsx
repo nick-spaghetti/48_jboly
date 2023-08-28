@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Alert from "../common/Alert";
-import "../styles/LoginForm.css";
+// import "../styles/LoginForm.css";
 import { useNavigate } from "react-router-dom";
 
 /** Login form.
@@ -55,7 +55,6 @@ function LoginForm({ login }) {
 		<div className="LoginForm">
 			<div className="container col-md-6 offset-md-3 col-lg-4 offset-lg-4">
 				<h3 className="mb-3">Log In</h3>
-
 				<div className="card">
 					<div className="card-body">
 						<form onSubmit={handleSubmit}>
