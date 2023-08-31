@@ -1,11 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-jboly/node_modules
-jboly/package-lock.json
-backend/node_modules
-backend/package-lock.json
-ref/
+node_modules
+package-lock.json
 /.pnp
 .pnp.js
 
